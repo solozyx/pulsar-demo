@@ -10,7 +10,7 @@ import (
 
 func main() {
 	client, err := pulsar.NewClient(pulsar.ClientOptions{
-		URL: "pulsar://192.168.174.158:6650",
+		URL: "pulsar://172.16.60.103:6650",
 	})
 	if err != nil {
 		log.Fatalf("Could not instantiate Pulsar client: %v", err)

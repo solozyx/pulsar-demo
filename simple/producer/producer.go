@@ -11,7 +11,7 @@ import (
 
 func main() {
 	client, err := pulsar.NewClient(pulsar.ClientOptions{
-		URL: "pulsar://192.168.174.158:6650", //更换为接入点地址
+		URL: "pulsar://172.16.60.103:6650", //更换为接入点地址
 		// ListenerName:      "custom:1300*0/vpc-**/subnet-****",        //更换为路由 ID
 		// Authentication:    pulsar.NewAuthenticationToken("eyJh****"), //更换为密钥
 		//OperationTimeout:  30 * time.Second,
